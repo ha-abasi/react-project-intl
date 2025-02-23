@@ -1,5 +1,5 @@
-# How to use React-Intl :
-
+# How to use FormatJS (preceded by react-intl):
+    https://formatjs.github.io/docs/getting-started/installation/
 ## Dependencies
-  - react-intl { https://www.npmjs.com/package/react-intl/ }
+  - formatjs  { https://github.com/formatjs/formatjs }
 
