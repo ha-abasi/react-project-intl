@@ -15,10 +15,10 @@ const messages = {
 // Our wrapper component, using a React render prop to 
 // expose the setLocale() function to child components.
 function I18n({ render }) {
-  const [locale, setLocale] = useState("fa");
+  const [locale, setLocale] = useState("fa"); // default to Farsi
 
   return (
-    // Use the key prop to force react-intl's IntlProvider
+    // Use the key prop to force react-intel's IntlProvider
     // to re-render its children on locale change.
     <IntlProvider 
        messages={messages[locale]}
